@@ -66,4 +66,4 @@ def count_trees_in_patches():
     return render_template('tree_counts.html', counts=tree_counts)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
