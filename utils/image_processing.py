@@ -7,8 +7,7 @@ from patchify import patchify
 import tifffile as tiff
 from inference_sdk import InferenceHTTPClient, InferenceConfiguration
 import cv2
-from deepforest import main
-from deepforest import get_data
+
 
 def normalize_band(band, hist_min, hist_max):
     band = np.clip(band, hist_min, hist_max)
